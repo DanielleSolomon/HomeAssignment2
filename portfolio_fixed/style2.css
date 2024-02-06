@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+
+
+nav{
+    background-color: black;
+}
+
+#about {
+    font-weight: bold;
+}
+
+#banner-image {
+    margin-top: 5em;
+}
+
+.flex-container {
+    width: 90%;
+    padding-top: 60px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    /* text-align: left; */
+    margin: auto;
+    /* box-sizing: border-box; */
+    padding-bottom: 50px;
+}
+
+
+.container {
+    flex-basis: 60%;
+    color: #fff;
+    padding-bottom: inherit;
+
+}
+
+
+.container p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}

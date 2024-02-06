@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+ 
+ #gallery{
+    font-weight: bold;
+ }
+ .content {
+    padding-top: 100px; /* Adjust according to navbar height */
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  .container .box {
+    display: flex;
+    flex-wrap: wrap; /* Ensure the boxes wrap when they don't fit horizontally */
+    gap: 20px; /* Adjust spacing between the boxes */
+  }
+  
+  .container .box .dream {
+    flex: 1 1 20%; /* Each box should take up 30% of the container's width */
+  }
+  
+  .container .box .dream img {
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+  }
+  
+  /* Update the padding-top of the navbar to avoid overlapping content */
+  nav {
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 20px 5% ; /* Adjust padding to create space at the top */
+    background-color:black;
+  }
+
+  
